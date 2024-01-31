@@ -1,37 +1,43 @@
 import React from "react";
-import { Logo } from "../../public/logo";
+import Image from "next/image";
 
 export function Header() {
   return (
-    <header className="sticky px-64 bg-[#EBEDE9]">
-      <div className="flex flex-row text-2xl justify-center gap-16 font-alt text-[#6b7e5e] py-3 [&_div]:flex [&_div]:flex-row [&_div]:gap-8 items-center">
+    <header className="sticky bg-[#EBEDE9] px-64">
+      <div className="flex flex-row items-center justify-center gap-16 font-alt text-2xl text-[#6b7e5e] [&_div]:flex [&_div]:flex-row [&_div]:gap-8">
         <div>
           <a
             href=""
-            className="hover:text-[#4B5842] transition-colors duration-300 border-b-2 border-transparent hover:border-[#4B5842]"
+            className="border-b-2 border-transparent transition-colors duration-300 hover:border-[#4B5842] hover:text-[#4B5842]"
           >
             Início
           </a>
           <a
             href=""
-            className="hover:text-[#4B5842] transition-colors duration-300 border-b-2 border-transparent hover:border-[#4B5842]"
+            className="border-b-2 border-transparent transition-colors duration-300 hover:border-[#4B5842] hover:text-[#4B5842]"
           >
             Ilustrações
           </a>
         </div>
 
-        <Logo />
+        <Image
+          className="h-fit w-20"
+          src={"/logo.png"}
+          alt="Juh"
+          width={1080}
+          height={1080}
+        />
 
         <div>
           <a
             href=""
-            className="hover:text-[#4B5842] transition-colors duration-300 border-b-2 border-transparent hover:border-[#4B5842]"
+            className="border-b-2 border-transparent transition-colors duration-300 hover:border-[#4B5842] hover:text-[#4B5842]"
           >
             Contato
           </a>
           <a
             href=""
-            className="hover:text-[#4B5842] transition-colors duration-300 border-b-2 border-transparent hover:border-[#4B5842]"
+            className="border-b-2 border-transparent transition-colors duration-300 hover:border-[#4B5842] hover:text-[#4B5842]"
           >
             Sobre
           </a>
