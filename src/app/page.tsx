@@ -14,19 +14,44 @@ export default function Home() {
         <div className="inline-flex h-full w-full flex-nowrap gap-4 overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
           <ul className="animate-infinite-scroll flex items-center justify-center gap-4 md:justify-start">
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
           </ul>
           <ul
@@ -34,19 +59,44 @@ export default function Home() {
             aria-hidden="true"
           >
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
             <li>
-              <CardPinturas />
+              <CardPinturas
+                img1={"a.jpg"}
+                img2={"b.jpg"}
+                tit={"Pintura Legal"}
+                price={"249.90"}
+              />
             </li>
           </ul>
         </div>
