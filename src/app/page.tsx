@@ -109,9 +109,40 @@ export default function Home() {
         </div>
 
         <div className="flex items-center justify-center">
-          <a className="border-2 border-[#4B5842] px-8 py-2 font-alt text-lg uppercase text-[#4B5842] transition-colors duration-300 hover:bg-[#4B5842] hover:text-[#DADDD8]">
+          <a
+            href="/"
+            className="border-2 border-[#4B5842] px-8 py-2 font-alt text-lg uppercase text-[#4B5842] transition duration-300 hover:scale-105 hover:bg-[#4B5842] hover:text-[#DADDD8]"
+          >
             Mais trabalhos
           </a>
+        </div>
+      </section>
+      <section className="grid h-screen grid-cols-2 items-center gap-16 px-36 py-16">
+        <Image
+          className="h-fit w-full"
+          src={"/bigPaint.jpg"}
+          alt="pintura grandona"
+          width={3024}
+          height={3024}
+        />
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col">
+            <h3 className="font-alt text-4xl text-[#4B5842]">
+              Pinturas originais
+            </h3>
+            <h4 className="font-sans text-xl text-[#4B5842] ">
+              Pinturas originais pintada por Julia Silva
+            </h4>
+          </div>
+
+          <div>
+            <a
+              href="/"
+              className="border-2 border-[#4B5842] bg-[#4B5842] px-8 py-2 text-left font-alt text-lg uppercase text-[#DADDD8] transition duration-300 hover:scale-105 hover:bg-transparent hover:text-[#4B5842]"
+            >
+              Loja
+            </a>
+          </div>
         </div>
       </section>
     </main>

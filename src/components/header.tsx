@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export function Header() {
   return (
-    <header className="sticky bg-[#EBEDE9] px-64">
-      <div className="flex flex-row items-center justify-center gap-16 font-alt text-2xl text-[#6b7e5e] [&_div]:flex [&_div]:flex-row [&_div]:gap-8">
+    <header className="fixed z-10 w-screen bg-[#EBEDE9] px-64">
+      <div className="flex flex-row items-center justify-center gap-16 border-b-2 border-[#6b7e5e] py-3 font-alt text-2xl text-[#6b7e5e] [&_div]:flex [&_div]:flex-row [&_div]:gap-8">
         <div>
           <a
             href=""
@@ -21,7 +21,7 @@ export function Header() {
         </div>
 
         <Image
-          className="h-fit w-20"
+          className="h-fit w-12"
           src={"/logo.png"}
           alt="Juh"
           width={1080}
