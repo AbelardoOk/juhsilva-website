@@ -197,6 +197,9 @@ export default function Home() {
             <WhatsappLogo />
           </a>
         </div>
+        <p className="font-sans text-sm font-light text-[#C7D59F]">
+          ©2024 juhsilva. Todos direitos reservados
+        </p>
       </section>
     </main>
   );
